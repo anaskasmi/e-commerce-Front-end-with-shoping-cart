@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>panier</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.shop.js"></script>
+
+</head>
+
+<body>
+
+<div id="site">
+	<div id="content">
+		<h1>votre panier</h1>
+		<form id="shopping-cart" action="cart.html" method="post">
+			<table class="shopping-cart">
+			  <thead>
+				<tr>
+					<th scope="col">articles</th>
+					<th scope="col">quantite</th>
+					<th scope="col" colspan="2">prix</th>
+				</tr>
+			  </thead>
+			  <tbody>
+			  
+			  </tbody>
+			</table>
+			<p id="sub-total">
+				<strong>Total</strong>: <span id="stotal"></span>
+			</p>
+			<ul id="shopping-cart-actions">
+				<li>
+					<input type="submit" name="delete" id="empty-cart" class="btn" value="vider le panier" />
+				</li>
+				<li>
+					<a href="checkout.html" class="btn">paiement</a>
+				</li>
+			</ul>
+			<ul id="shopping-cart-actions">
+				<li>
+					<a href="index.html" class="btn">accueil</a>
+				</li>
+				<li>
+					<a href="tshirts.html" class="btn">tshirts</a>
+				</li>
+				<li>
+					<a href="cartables.html" class="btn">cartables</a>
+				</li>
+				<li>
+					<a href="chaussures.html" class="btn">chaussures</a>
+				</li>
+			</ul>
+		</form>
+	</div>
+	
+	
+
+</div>
+	<!-- FOOTER -->
+	<footer id="footer" class="section section-grey">
+		<!-- container -->
+		<div style="margin-left:  215px;" class="container">
+			
+			<!-- row -->
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> template fait par Anas KASMI
+					</div>
+					<!-- /footer copyright -->
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</footer>
+	<!-- /FOOTER -->
+
+</body>
+</html>	
